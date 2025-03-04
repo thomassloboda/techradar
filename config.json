@@ -1,0 +1,144 @@
+{
+  "basePath": "/techradar",
+  "baseUrl": "https://thomas.sloboda.fr/techradar",
+  "editUrl": "https://github.dev/thomassloboda/techradar/blob/main/radar/{release}/{id}.md",
+  "logoFile": "logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": [
+    "radar",
+    "tags",
+    "list"
+  ],
+  "colors": {
+    "foreground": "#fcf2e6",
+    "background": "#113521",
+    "highlight": "#d4a373",
+    "content": "#fff",
+    "text": "#575757",
+    "link": "#bc6c25",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "tag": "rgba(255, 255, 255, 0.1)"
+  },
+  "quadrants": [
+    {
+      "id": "front-end",
+      "title": "Frontend",
+      "description": "",
+      "color": "#a3b18a"
+    },
+    {
+      "id": "back-end",
+      "title": "Backend",
+      "description": "",
+      "color": "#588157"
+    },
+    {
+      "id": "infrastructure",
+      "title": "Infrastructure",
+      "description": "",
+      "color": "#3f633e"
+    },
+    {
+      "id": "others",
+      "title": "Autres",
+      "description": "",
+      "color": "#40713f"
+    }
+  ],
+  "rings": [
+    {
+      "id": "like",
+      "title": "Like",
+      "description": "J'apprécie",
+      "color": "#588157",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "know",
+      "title": "Know",
+      "description": "Je suis à l'aise",
+      "color": "#457b9d",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "discover",
+      "title": "DIscover",
+      "description": "Je souhaite approfondir",
+      "color": "#bc6c25",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "avoid",
+      "title": "Avoid",
+      "description": "Je prefére éviter",
+      "color": "#d62828",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#f1235a",
+      "title": "New",
+      "titleShort": "N",
+      "description": "Nouveauté"
+    },
+    "changed": {
+      "color": "#40a7d1",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Changement récent"
+    },
+    "default": {
+      "description": "Inchangé"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 12
+  },
+  "social": [
+    {
+      "href": "https://twitter.com/slobodathomas",
+      "icon": "x"
+    },
+    {
+      "href": "https://www.linkedin.com/in/thomassloboda",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://www.instagram.com/thomassloboda_dev",
+      "icon": "instagram"
+    },
+    {
+      "href": "https://github.com/thomassloboda",
+      "icon": "github"
+    }
+  ],
+  "imprint": "https://www.aoe.com/en/imprint.html",
+  "labels": {
+    "title": "Technology Radar",
+    "imprint": "Information légales",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Aperçu du quadrant",
+    "zoomIn": "Zoomer",
+    "filterByTag": "Filtrer par Tag",
+    "footer": "The technology radar is a project by AOE GmbH. Feel free to build your own radar based on the open source project.",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use AOE Technology Radar?",
+    "pageOverview": "Apperçu des technologies",
+    "pageSearch": "Rechercher",
+    "searchPlaceholder": "Que cherchez-vous ?",
+    "metaDescription": ""
+  }
+}
